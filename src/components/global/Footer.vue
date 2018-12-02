@@ -11,7 +11,7 @@
         class="white--text"
         href="https://github.com/ppuk/apografi-client"
       >
-        Made with Love by PPUK. Licensed under MIT.
+        Made by PPUK. Licensed under MIT.
       </a>
     </v-flex>
   </v-footer>

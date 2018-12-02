@@ -1,15 +1,14 @@
 <template>
   <v-app>
-    <v-navigation-drawer app></v-navigation-drawer>
-    <v-toolbar app></v-toolbar>
+    <v-navigation-drawer app />
     <v-content>
       <v-container fluid>
         <v-layout>
-          <router-view></router-view>
+          <router-view />
         </v-layout>
       </v-container>
     </v-content>
-    <Footer/>
+    <Footer />
   </v-app>
 </template>
 
@@ -17,13 +16,9 @@
 import Footer from '@/components/global/Footer'
 
 export default {
-  name: "AdminContainer",
+  name: 'AdminContainer',
   components: {
     Footer
   }
 }
 </script>
-
-<style scoped>
-
-</style>

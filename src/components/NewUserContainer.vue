@@ -1,10 +1,10 @@
 <template>
   <v-app>
-    <v-toolbar app>
+    <v-toolbar app color="accent" dark>
       <v-toolbar-title>Pirate Party UK</v-toolbar-title>
     </v-toolbar>
     <v-content>
-      <v-container fill-height fluid grid-list-md>
+      <v-container fluid grid-list-md>
         <router-view></router-view>
       </v-container>
     </v-content>
